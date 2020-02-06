@@ -1,0 +1,47 @@
+.contact-info-container {
+    padding: 30px; 
+  }
+  
+  .fa-envelope-square:before {
+    font-size: 38px;
+  }
+ 
+  .contact li {
+   list-style-type: none;
+   padding-right: 25px;
+   font-size: 38px;
+ 
+  }
+ 
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  .contact-info-logos {
+   font-size: 30px;
+   display: flex;
+   flex-direction: row;
+  }
+ 
+  .location {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+  }
+ 
+
+
+  @media screen and (min-width: 460px) {
+
+  }
+
+  @media screen and (min-width: 720px) {
+    .contact-info-text li {
+
+        margin-right: 20px;
+      }   
+  }

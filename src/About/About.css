@@ -1,0 +1,101 @@
+.screen-shot {
+    align-self: center;
+    padding: 40px;
+  
+  }
+
+  .name-header {
+    border: none;
+    text-align: center;
+  }
+  
+  .pic-me {
+    max-width: 60%;
+    height: auto;
+    margin-top: 50px;
+  }
+  
+  img {
+  
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px;
+  
+  }
+
+
+  h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 2.8px;
+    line-height: 40px;
+  }
+  
+  
+  
+  
+  p {
+    font-family: 'Actor', sans-serif;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 5%;
+  letter-spacing: 1.5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border-top: 3px solid black;
+    margin-top: 17px;
+    margin-bottom: 34px;
+  }
+  .name-header {
+    border: none;
+  }
+  
+  @media screen and (min-width: 460px) {
+    h1 {
+        font-size: 25px;
+        padding-right: 70px;
+        padding-left: 70px;
+      }
+
+
+  }
+
+  @media screen and (min-width: 720px) {
+
+
+    .about-me-container {
+        padding: 30px;
+      }
+  
+      h1 {
+      
+        font-size: 25px;
+      }
+  
+  
+      h2 {
+        font-size: 30px;
+      }
+  
+      img
+  
+      h3 {
+        font-size: 25px;
+      }
+
+      pic-me , img {
+        max-width: 49%;
+        height: auto;
+      }
+    
+      
+  }

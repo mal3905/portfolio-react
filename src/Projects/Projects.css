@@ -1,0 +1,15 @@
+.travel-quiz-info {
+    padding: 30px;
+  }
+ 
+  
+  .quiz-logos, .bk-logos{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 47px;
+    cursor: pointer;
+
+}
